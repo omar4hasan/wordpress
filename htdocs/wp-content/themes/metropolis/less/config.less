@@ -1,0 +1,58 @@
+// ================================================
+// Main settings file by THB
+// v.1.0.1
+// 31.01.2012
+// ================================================
+
+// Global settings
+@container: 960; // Container width in px or %
+@numcol: 12; // Grid columns number
+@gutter: 30; // Grid gutter in px or %
+@container-padding: 0; // Container extra padding in px or %
+@extended-container-padding: 0; // Extended container extra padding in px or %
+// @container-max-width: 0; // Container or extended container max width in px
+@container-tablet: 768; // iPad min-width
+
+// Unit value for fixed or responsive layouts
+@unit: 1px;
+
+// ================================================
+// Basic text sizing
+// ================================================
+// Reference
+// 62.5%  => 10px 
+// 68.8%  => 11px
+// 75%    => 12px
+// 81.3%  => 13px
+// 87.5%  => 14px
+// 100%   => 16px
+// 112.5% => 18px
+// 125%   => 20px
+// ================================================
+@font-size: 81.3; @font-unit: 1%; @line-height: 1.5;
+// ================================================
+// Proportions based on typographic scale
+// 14, 16, 18, 21, 24, 32, 48
+// ================================================
+// needed – edit only if you want to change
+// calculation proportions
+// ================================================
+@p-size: 14; 
+@h6-size: 16;
+@h5-size: 18;
+@h4-size: 21;
+@h3-size: 24;
+@h2-size: 32;
+@h1-size: 48;
+
+
+// ================================================
+// DO NOT EDIT
+// ================================================
+// Set the min and max-width for iPad and iPhone 
+@tablet-device-width: @container-tablet + (@container-padding*2) + (@extended-container-padding*2) * 1px;
+
+@tablet-max-width: @container + (@container-padding*2) + (@extended-container-padding*2) - 1px;
+@tablet-min-width: @container-tablet + (@container-padding*2) + (@extended-container-padding*2) * 1px;
+
+@mobile-max-width: @container-tablet + (@container-padding*2) + (@extended-container-padding*2) - 1px;

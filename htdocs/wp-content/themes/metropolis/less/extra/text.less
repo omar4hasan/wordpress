@@ -1,0 +1,61 @@
+@import "config.less";
+/* 
+======================================================================================
+	Basic text sizing
+====================================================================================== 
+*/
+// Set your main font size for paragraph
+// and let less do the rest
+//
+// Reference
+// 62.5%  => 10px
+// 68.8%  => 11px
+// 75%    => 12px
+// 81.3%  => 13px
+// 87.5%  => 14px
+// 100%   => 16px
+// 112.5% => 18px
+// 125%   => 20px
+//=======================================
+
+body { 
+	font-size: @font-size*@font-unit;
+	line-height: @line-height;
+}
+
+h1 {
+	font-size: @h1-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*3)/@h1-size*1em;
+}
+
+h2 {
+	font-size: @h2-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*3)/@h2-size*1em;
+}
+
+h3 {
+	font-size: @h3-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*2)/@h3-size*1em;
+}
+
+h4 {
+	font-size: @h4-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*2)/@h4-size*1em;
+}
+
+h5 {
+	font-size: @h5-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*2)/@h5-size*1em;
+}
+
+h6 {
+	font-size: @h6-size/@p-size*1em;
+	line-height: ((@p-size*@line-height)*2)/@h6-size*1em;
+}
+
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: @line-height*1em;
+}

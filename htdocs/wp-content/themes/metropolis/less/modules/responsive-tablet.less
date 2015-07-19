@@ -1,0 +1,92 @@
+// ================================================
+// Responsive file for tablet devices
+// v.1.0.1
+// 31.01.2012
+// ================================================
+.col-tablet(@n: 1)  {
+	@width: (((@container-tablet/@numcol) - (@gutter*2)) * @n) + ((@gutter * 2) * (@n - 1));
+	width: @width*@unit; // col width
+}
+
+.box-col-tablet(@n: 1) {
+	@box-col-width: (@container-tablet/@numcol) * @n;
+	width: @box-col-width*@unit; // box-col width
+}
+
+.pre-tablet(@n: 1) {
+	@left: (@container-tablet/@numcol) * @n * @unit;
+	margin-left: @left;
+}
+
+/*
+======================================================================================
+	Tablet framework
+======================================================================================
+*/
+// min-width: 768px + @container-padding; iPad portrait width
+// max-width: @container + @container-padding - 1;
+
+@media only screen and (min-width: @tablet-min-width) and (max-width: @tablet-max-width) {
+	
+	// Columns framework based on tablet 768px resolution
+	.container {
+		width: @container-tablet*@unit;
+	}
+	
+	.extended-container {
+		width: @container-tablet+(@container-padding*2)*@unit;
+	}
+	
+	.box-col {
+		&.span-1  { .box-col-tablet(1); }
+		&.span-2  { .box-col-tablet(2); }
+		&.span-3  { .box-col-tablet(3); }
+		&.span-4  { .box-col-tablet(4); }
+		&.span-5  { .box-col-tablet(5); }
+		&.span-6  { .box-col-tablet(6); }
+		&.span-7  { .box-col-tablet(7); }
+		&.span-8  { .box-col-tablet(8); }
+		&.span-9  { .box-col-tablet(9); }
+		&.span-10 { .box-col-tablet(10); }
+		&.span-11 { .box-col-tablet(11); }
+		&.span-12 { .box-col-tablet(12); }	
+	}
+	
+	.span-1        { .col-tablet(1); }
+	.span-2        { .col-tablet(2); }
+	.span-3,
+	.one-fourth    { .col-tablet(3); }
+	.span-4,
+	.one-third     { .col-tablet(4); }
+	.span-5        { .col-tablet(5); }
+	.span-6,
+	.one-half,
+	.two-fourths   { .col-tablet(6); }
+	.span-7        { .col-tablet(7); }
+	.span-8,
+	.two-thirds    { .col-tablet(8); }
+	.span-9,
+	.three-fourths { .col-tablet(9); }
+	.span-10       { .col-tablet(10); }
+	.span-11       { .col-tablet(11); }
+	.span-12,
+	.full          { .col-tablet(12); }
+	
+	.pre-1  { .pre-tablet(1); }
+	.pre-2  { .pre-tablet(2); }
+	.pre-3  { .pre-tablet(3); }
+	.pre-4  { .pre-tablet(4); }
+	.pre-5  { .pre-tablet(5); }
+	.pre-6  { .pre-tablet(6); }
+	.pre-7  { .pre-tablet(7); }
+	.pre-8  { .pre-tablet(8); }
+	.pre-9  { .pre-tablet(9); }
+	.pre-10 { .pre-tablet(10); }
+	.pre-11 { .pre-tablet(11); }
+	
+	img, object, embed {
+		max-width: 100%;
+		height: auto;
+	}
+
+}

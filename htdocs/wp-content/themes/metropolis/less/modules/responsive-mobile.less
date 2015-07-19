@@ -1,0 +1,87 @@
+// ================================================
+// Responsive file for mobile devices
+// v.1.0.1
+// 31.01.2012
+// ================================================
+
+/*
+======================================================================================
+	Mobile framework
+======================================================================================
+*/
+// max-width: 768px + @container-padding -1; iPad portrait width -1
+
+@media only screen and (max-width: @mobile-max-width) {
+	@gutter: 6.25%;
+	
+	// Columns framework based on iPhone portrait 320px resolution
+	.container,
+	.extended-container,
+	.box-col {
+		.box-sizing(border-box);
+		width: 100%;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+
+		&.span-1,
+		&.span-2,
+		&.span-3,
+		&.span-4,
+		&.span-5,
+		&.span-6,
+		&.span-7,
+		&.span-8,
+		&.span-9,
+		&.span-10,
+		&.span-11,
+		&.span-12 {
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.box-col {
+		margin-bottom: @gutter*2;
+
+		&:last-of-type {
+			margin-bottom: @gutter/2;
+		}
+	}
+
+	.col {
+		.box-sizing(border-box);
+		width: 87.5%;	
+		margin-left: @gutter;
+		margin-right: @gutter;	
+	}
+
+	img, object, embed {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	// Standard link with an image included
+	.thumb {
+		width: 100%;
+		
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+
+	// Form fix with box-sizing method
+	form {
+		
+		input,
+		textarea,
+		select {
+			width: 100%;
+		}
+	}
+
+}

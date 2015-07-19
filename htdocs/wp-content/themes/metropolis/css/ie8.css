@@ -1,0 +1,32 @@
+/* IE (all versions) */
+/* ----------------------------------------- */
+.controls-container {
+	height: 32px;
+}
+.slide-box-caption.extended-container .slide-overlay.boxed {
+}
+.slide-box-caption.extended-container .slide-overlay.dynamic-slide {
+	display: none;
+}
+
+.slide-box-caption.extended-container .slide-overlay.dynamic-slide.slide-in {
+	display: block;
+	background: url(i/alpha.png);
+}
+
+#searchform #s {
+	text-indent: 0;
+	background-position: 95% center;
+}
+
+.page-template-archives-php #searchform #s,
+.search-no-results #searchform #s {
+	text-indent: 0;
+	background-position: 98% center;
+}
+
+.widget .side-post .item-image,
+.widget .latest-works-container .item-image {
+	width: 50px;
+	height: 50px;
+}

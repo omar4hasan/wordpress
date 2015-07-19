@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Today\n"
+"POT-Creation-Date: 2014-10-07 19:09+0200\n"
+"PO-Revision-Date: 2014-10-07 19:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "404 ERROR - Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid "The page you requested does not exist."
+msgstr ""
+
+#: admin/page.php:6 admin/post.php:5
+msgid "Sidebar layout settings"
+msgstr ""
+
+#: admin/page.php:75
+msgid "Page settings for Blog Style"
+msgstr ""
+
+#: admin/post.php:72
+msgid "Slider settings"
+msgstr ""
+
+#: admin/post.php:193
+msgid "Post settings"
+msgstr ""
+
+#: admin/theme_options/options-framework.php:261
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/theme_options/options-framework.php:261
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/theme_options/options-framework.php:264
+msgid "Save Options"
+msgstr ""
+
+#: admin/theme_options/options-framework.php:297
+msgid "Default options restored."
+msgstr ""
+
+#: admin/theme_options/options-framework.php:338
+msgid "Options saved."
+msgstr ""
+
+#: admin/theme_options/options-framework.php:396
+msgid "Theme Options"
+msgstr ""
+
+#: admin/theme_options/options-medialibrary-uploader.php:127
+msgid "Upload"
+msgstr ""
+
+#: admin/theme_options/options-medialibrary-uploader.php:150
+msgid "View File"
+msgstr ""
+
+#: author.php:88
+msgid "posts"
+msgstr ""
+
+#: author.php:89
+msgid "comments"
+msgstr ""
+
+#: blog-style1.php:141 blog-style3.php:152
+#: includes/shortcodes/blog-five.php:74 includes/shortcodes/blog-five.php:118
+#: includes/shortcodes/blog-three.php:74 includes/shortcodes/blog-two.php:72
+#: slider.php:85 slider.php:148 slider.php:211
+msgid "Read more"
+msgstr ""
+
+#: breaking-news.php:2
+msgid "breaking news"
+msgstr ""
+
+#: comments.php:7
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:16
+#, php-format
+msgid "One Comment %2$s"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: contact.php:84
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: contact.php:96
+msgid "Name"
+msgstr ""
+
+#: contact.php:105
+msgid "&larr; Please enter your name."
+msgstr ""
+
+#: contact.php:111
+msgid "Email"
+msgstr ""
+
+#: contact.php:120
+msgid "&larr; Please enter a valid email address."
+msgstr ""
+
+#: contact.php:126
+msgid "Message"
+msgstr ""
+
+#: contact.php:141
+msgid "&larr; Please enter a message."
+msgstr ""
+
+#: footer.php:45
+msgid "All Rights Reserved."
+msgstr ""
+
+#: header.php:23
+msgid "Archive"
+msgstr ""
+
+#: header.php:28
+msgid "Search for"
+msgstr ""
+
+#: header.php:35
+msgid "Not Found"
+msgstr ""
+
+#: includes/functions-comment.php:18
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: includes/functions-comment.php:23
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: includes/functions-comment.php:34
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/functions-comment.php:36 includes/functions-comment.php:58
+msgid "(Edit)"
+msgstr ""
+
+#: includes/functions-comment.php:58
+msgid "Pingback:"
+msgstr ""
+
+#: includes/functions-menu.php:4
+msgid "Top Menu"
+msgstr ""
+
+#: includes/functions-sidebar.php:7
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:8
+msgid "Sidebar Page"
+msgstr ""
+
+#: includes/functions-sidebar.php:19 includes/functions-sidebar.php:20
+msgid "Blog Style 1 - Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:31 includes/functions-sidebar.php:32
+msgid "Blog Style 2 - Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:43 includes/functions-sidebar.php:44
+msgid "Blog Style 3 - Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:55 includes/functions-sidebar.php:56
+msgid "Blog Style 4 - Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:67 includes/functions-sidebar.php:68
+msgid "Blog Single - Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:79 includes/functions-sidebar.php:80
+msgid "Contact Sidebar"
+msgstr ""
+
+#: includes/functions-sidebar.php:94
+msgid "Footer Widget 1"
+msgstr ""
+
+#: includes/functions-sidebar.php:95
+msgid "In the footer the left column"
+msgstr ""
+
+#: includes/functions-sidebar.php:106
+msgid "Footer Widget 2"
+msgstr ""
+
+#: includes/functions-sidebar.php:107
+msgid "In the footer the center column"
+msgstr ""
+
+#: includes/functions-sidebar.php:118
+msgid "Footer Widget 3"
+msgstr ""
+
+#: includes/functions-sidebar.php:119
+msgid "In the footer the right column"
+msgstr ""
+
+#: includes/shortcodes/soundcloud.php:193
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/shortcodes/soundcloud.php:333
+msgid "Save Changes"
+msgstr ""
+
+#: includes/widgets/blog-one.php:9
+msgid "Recent posts on blog your site, style #1."
+msgstr ""
+
+#: includes/widgets/blog-one.php:11
+msgid "TODAY - #1 Recent Posts"
+msgstr ""
+
+#: includes/widgets/blog-one.php:100 includes/widgets/blog-three.php:113
+#: includes/widgets/blog-two.php:153 includes/widgets/widget-flickr.php:77
+#: includes/widgets/widget-soundcloud.php:71
+#: includes/widgets/widget-twitter.php:116
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/blog-one.php:115 includes/widgets/blog-three.php:128
+#: includes/widgets/blog-two.php:168
+msgid "Posts Number:"
+msgstr ""
+
+#: includes/widgets/blog-one.php:130 includes/widgets/blog-three.php:143
+#: includes/widgets/blog-two.php:183
+msgid "Category Slug (optional):"
+msgstr ""
+
+#: includes/widgets/blog-three.php:9
+msgid "Recent posts on blog your site, style #3."
+msgstr ""
+
+#: includes/widgets/blog-three.php:11
+msgid "TODAY - #3 Recent Posts"
+msgstr ""
+
+#: includes/widgets/blog-two.php:9
+msgid "Recent posts on blog your site, style #2."
+msgstr ""
+
+#: includes/widgets/blog-two.php:11
+msgid "TODAY - #2 Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:10
+msgid "Display images from a Flickr account."
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:12
+msgid "TODAY - Flickr"
+msgstr ""
+
+#: includes/widgets/widget-soundcloud.php:10
+msgid "Display your SoundCloud."
+msgstr ""
+
+#: includes/widgets/widget-soundcloud.php:12
+msgid "TODAY - SoundCloud"
+msgstr ""
+
+#: includes/widgets/widget-soundcloud.php:88
+msgid "SoundCloud API:"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:11
+msgid "Display your latest Tweets"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:13
+msgid "TODAY - Twitter"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:131
+msgid "Consumer key"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:146
+msgid "Consumer secret"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:161
+msgid "Access token"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:176
+msgid "Access token secret"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:191
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:206
+msgid "Number of tweets"
+msgstr ""
+
+#: search.php:67
+msgid "No posts were found!"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search here ..."
+msgstr ""

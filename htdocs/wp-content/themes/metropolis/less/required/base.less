@@ -1,0 +1,56 @@
+//=======================================
+// Less Framework created by THB
+// v.1.0.1
+// 31.01.2012
+//=======================================
+
+@import "../config.less";
+
+//=======================================
+// Common vars
+//=======================================
+
+@col-width: @container/@numcol;
+
+//=======================================
+// Grid system
+//=======================================
+.container {
+	width: @container*@unit;
+	margin: 0 auto;
+	padding-left: @container-padding*@unit;
+	padding-right: @container-padding*@unit;
+	position: relative;
+	.clearfix();
+}
+
+.extended-container {
+	width: @container+(@container-padding*2)*@unit;
+	padding-left: @extended-container-padding*@unit;
+	padding-right: @extended-container-padding*@unit;
+	margin: 0 auto;
+	position: relative;
+	.clearfix();
+}
+
+.row {
+	float: left;
+	display: inline;
+	position: relative;
+	.clearfix();
+}
+
+.col {
+	display: inline;
+	float: left;
+	position: relative;
+	
+	@margin: @gutter*@unit;
+	margin: 0 @margin;	
+}
+
+.box-col {
+	display: inline;
+	float: left;
+	position: relative;
+}

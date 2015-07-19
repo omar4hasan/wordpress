@@ -1,0 +1,87 @@
+//=======================================
+// Fixed grid
+// v.1.0.1
+// 31.01.2012
+//=======================================
+
+.col(@n: 1)  { 
+	@width: (((@container/@numcol) - (@gutter*2)) * @n) + ((@gutter * 2) * (@n - 1)); 
+	width: @width*@unit; // col width
+}
+
+.box-col(@n: 1) {
+	@box-col-width: (@container/@numcol) * @n;
+	width: @box-col-width*@unit; // box-col width
+}
+
+.pre(@n: 1) { 
+	@left: (@container/@numcol) * @n + @gutter * @unit; 
+	margin-left: @left; 
+}
+
+.pre-box-col(@n: 1) { 
+	@left: (@container/@numcol) * @n * @unit; 
+	margin-left: @left; 
+}
+
+//=======================================
+//	Standard px cols
+//=======================================
+.box-col {
+	&.span-1  { .box-col(1); }
+	&.span-2  { .box-col(2); }
+	&.span-3  { .box-col(3); }
+	&.span-4  { .box-col(4); }
+	&.span-5  { .box-col(5); }
+	&.span-6  { .box-col(6); }
+	&.span-7  { .box-col(7); }
+	&.span-8  { .box-col(8); }
+	&.span-9  { .box-col(9); }
+	&.span-10 { .box-col(10); }
+	&.span-11 {	.box-col(11); }
+	&.span-12 {	.box-col(12); }	
+
+	&.pre-1  { .pre-box-col(1); }
+	&.pre-2  { .pre-box-col(2); }
+	&.pre-3  { .pre-box-col(3); }
+	&.pre-4  { .pre-box-col(4); }
+	&.pre-5  { .pre-box-col(5); }
+	&.pre-6  { .pre-box-col(6); }
+	&.pre-7  { .pre-box-col(7); }
+	&.pre-8  { .pre-box-col(8); }
+	&.pre-9  { .pre-box-col(9); }
+	&.pre-10 { .pre-box-col(10); }
+	&.pre-11 { .pre-box-col(11); }
+}
+
+.span-1        { .col(1); }
+.span-2        { .col(2); }
+.span-3,
+.one-fourth    { .col(3); }
+.span-4,
+.one-third     { .col(4); }
+.span-5        { .col(5); }
+.span-6,
+.one-half,
+.two-fourths   { .col(6); }
+.span-7        { .col(7); }
+.span-8,
+.two-thirds    { .col(8); }
+.span-9,
+.three-fourths { .col(9); }
+.span-10       { .col(10); }
+.span-11       { .col(11); }
+.span-12,
+.full          { .col(12); }
+
+.pre-1  { .pre(1); }
+.pre-2  { .pre(2); }
+.pre-3  { .pre(3); }
+.pre-4  { .pre(4); }
+.pre-5  { .pre(5); }
+.pre-6  { .pre(6); }
+.pre-7  { .pre(7); }
+.pre-8  { .pre(8); }
+.pre-9  { .pre(9); }
+.pre-10 { .pre(10); }
+.pre-11 { .pre(11); }
